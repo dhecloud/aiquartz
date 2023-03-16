@@ -1,0 +1,1 @@
+[[Black-box attack]]. Argues that deleting and adding edges are not unnoticeable enough. [[Rewiring]] operation proposed.

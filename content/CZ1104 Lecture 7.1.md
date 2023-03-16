@@ -1,0 +1,19 @@
+---
+---
+- [[Consistency in a System of Equations]]
+- 3 possible cases:
+- 1. $$M \gg N$$
+- 2. $$M \approx N$$
+- 3. $$M \ll N$$
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2F7aXogvkv6C.png?alt=media&token=4e4f4335-8e34-492c-ab7d-619bf8aac5e5)
+- [[Least Squares Solution for Inconsistent Equations]]
+- If $$A$$ is $$m \times n$$ and $$b$$ is in $$R^m$$, a least-squares solution of $$Ax = b$$ is an $$\hat{x}$$  in $$R^n$$ such that
+$$\lVert b - A\hat{x} \rVert \leq \lVert b - A \rVert$$ for all $$x$$ in $$R^n$$
+- [[Normal Equation]
+- The set of least-squares solutions of $$Ax = b$$ coincides with the nonempty set of solutions of the normal equations $$A^TAx = A^Tb$$
+- Proven by the [[Orthogonal Decomposition Thereom]] 	
+- [[Projection Matrix]]
+- $$P = A(A^TA)^{-1}A^T$$
+- Properties:
+- $$P^T = P$$
+- $$P^N = P$$ (Idempotent Property)

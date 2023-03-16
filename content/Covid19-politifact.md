@@ -1,0 +1,7 @@
+---
+---
+- Constructed by [[Misinformation has High Perplexity]]
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FfHZx1r85ju.png?alt=media&token=71158356-abae-42ab-9da8-96b67c5a85a0)
+- Contains non-scientific and political claims.
+- For example, "For the coronavirus, the death rate in Texas, per capita of 29 million people, we’re one of the lowest in the country"
+- These facts have the potential to bring about negative sociopolitical effects

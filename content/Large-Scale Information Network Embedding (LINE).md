@@ -1,0 +1,1 @@
+Similar to [[node2vec]], but chooses to reconstruct the set of edges $E$ (as opposed to the list of co-occurrences $I$ ).

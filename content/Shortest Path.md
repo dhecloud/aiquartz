@@ -1,0 +1,1 @@
+between a pair of nodes is defined as $$p_{st}^{sp} = arg \min_{p\in P_{st}} |p|$$

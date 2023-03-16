@@ -1,0 +1,19 @@
+---
+---
+- Date: [[August 19th, 2020]]
+- [[Point Processing]]
+- Each new pixel depends only on itself
+- [[Spatial Filtering]]
+- Each new pixel depends on the neighboring pixels
+- [[Image Negatives]]
+- Inverting gray labels 
+- [[Contrast Stretching]] increases contrast of images captured under poor illumination, wrong camera setting, etc. Maximizes dynamic range
+- [[Averaging Filter]] ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2Fnm4CMR1asO.png?alt=media&token=310ab1cb-6fca-41b7-a677-808439e1a09c)
+- Gaussian Smoothing $$h(x,y) = \frac{1}{2\pi\sigma^2}e^{-\frac{x^2 + y^2}{2\sigma^2}}$$
+- [[Laplacian Filter]] $$\nabla^2f = \frac{∂^2f}{∂x^2} + \frac{∂^2f}{∂y^2}$$ enhances edges only
+- [[High Boost Filtering]] mixes original image and image from [[Laplacian Filter]]
+- Applying filters that enchance image derivatives will sharpen images
+- Non Linear Filtering are usually done using order statistics
+- [[Median Filtering]], useful for removing impulse noise
+- [[Histogram Equalization]]
+- preferred over [[Contrast Stretching]]

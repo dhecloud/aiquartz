@@ -1,0 +1,5 @@
+---
+---
+- According to [[Probing Neural Dialog Models for Conversational Understanding]]
+- 14K train, 1K validation, 1K test multi-turn dialogs collected from an English Learning Website
+- Higher Quality than datasets from Twitter or Reddit 

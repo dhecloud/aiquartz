@@ -1,0 +1,1 @@
+Aims to learn a new [[Adjacency Matrix]] $S$, which is close to the original adjacency matrix $A$, while being low-rank and also ensuring feature smoothing. 

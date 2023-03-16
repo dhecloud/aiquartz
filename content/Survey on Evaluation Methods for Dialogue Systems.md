@@ -1,0 +1,152 @@
+Author(s): [[Jan Deriu]], [[Alvaro Rodrigo]], [[Arantxa Otegi]], [[Guillermo Echegoyen]], [[Sophie Rosset]], [[Eneko Agirre]], [[Mark Cieliebak]]
+Tags: #Dialogue_Modelling, #Conversational_Dialogue_Systems, #survey, #Evaluation_Metric, #Task_Oriented_Dialogue_Systems, #Question-Answering_Dialogue_Systems, #academic_papers
+Read on: [[June 19th, 2020]]
+URL: https://arxiv.org/abs/1905.04071
+# Main Contribution(s)
+- Provide a comprehensive survey for which dialogue systems have been evaluated in the past.
+# Summary (1/2)
+- For terminology: utterances < turns < exchanges < dialogue
+- There are several properties an evaluation metric has to have:
+    - Automatic
+    - Repeatable (deterministic)
+    - Correlated to human judgement
+    - Differentiate between different dialogue systems
+    - Explainable
+- Human Evaluation is done:
+    - In the past using questionnaires in a lab environment
+    - However, crowdsourcing using [AMT]([[Amazon Mechanical Turk]]) is a lot more common now
+    - Using feedback from real users of dialogue systems
+- This paper covers 3 main classes of dialogue systems; for which i will split this summary into.
+# [[Task Oriented Dialogue Systems]]
+- Very structured and tailored dialogues, with little interactions as possible.
+    ## Dialogue Structure
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2F6NlgCB6H3E.png?alt=media&token=e9af4e7d-d303-4cd1-8eaa-3788a73da0b8)
+    - Usually defined as a list of slot-value pairs
+    - ==Dialogue act== - the strategy of filling the required slots during the conversation
+    ## Technologies
+    -  ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FngepGZhBPp.png?alt=media&token=91b009de-b4f2-41cd-8c9b-576e113aba51)
+        - The central component is the **dialogue manager**, which outputs a dialogue act
+        - Traditionally, these components were a pipeline of architectures; but recently end-to-end neural networks have been promising
+        - ###  Pipelined Systems
+            - Components
+                - ==NLU== - 1. identify domains 2. identify intent 3. identify slots. Traditionally [HMM]([[Hidden Markov Models]]), [SVM]([[Subject Vector Machines]]), [CRF]([[Conditional Random Fields]]) were used. Recently, joint models for 2. and 3. has been used
+                -  ==Dialogue State Tracking== - infers current belief state of the conversation. Traditionally [DBN]([[Dynamic Bayesian Network]]), recently discriminative models and [RNN]([[Recurrent Neural Networks]])
+                - ==Strategy== - Generates the next dialogue act (aka action) from the current belief state. Traditionally [[Rule-Based Approaches]], then [[Markov Decision Process]])
+                - ==NLG== - Generates an utterance in natural language. Usually divided into separate sub tasks such as content selection, sentence planning and surface realization, and solved traditionally by [[Rule-Based Approaches]] or statistical methods. Recently, deep learning techniques
+            - Disadvantages
+                - Modular; each component designed separately; requires a lot of handcrafting.
+                - Propagation and amplification of errors through the pipeline as each module depends on the output of the previous module
+                - Credit assignment problem;
+                - Interdependence among modules
+                - Hard to scale to new domains
+        - ## End-To-End Trainable Systems
+            - The dialogue system is trained as a single module.
+            - Relies on huge amounts of dialogue corpus
+- ## Evaluation
+    - 2 methods: ==User Satisfaction Modelling==, ==User Simulation==
+        - Some metrics of measuring performance
+            - [[Task Success Rate]]
+            - [[Dialogue Efficiency]]
+            - [[Kappa coefficient]]
+        - ### User Satisfaction Modelling
+            - Measure the impact of the properties of the dialogue system on the user satisfaction (==**explainability**==)
+            - Automate the evaluation process based on these properties (==**automation**==) 
+            - Use the models to evaluate different dialogue strategies (==**differentiability**==)
+            - There are 3 main criticisms around judgements made by users:
+                - 1. Reliability - different users interpret different questions on questionnaires differently
+                - 2. Cognitive demand - Rating dialogue puts more cognitive demand on users
+                - 3. Impracticability - user has to multitask to rate the live dialogue using a button or special installation
+            - The [PARADISE]([[PARAdigm for DIalog System Evaluation]]) combines different measures of performance into a single metric. 
+                - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FtLWjwz5C7R.png?alt=media&token=e794cc41-a551-44d4-bc37-5187ae1c33d2)
+                - Original 2 metrics was [[Task Success Rate]] and measures that define the dialogue cost
+                - The framework is capable of predicting ratings and finding factors which have the most impact on the ratings. However, it is not able to distinguish between different user groups
+            - The [[Interaction Quality]] metric was created with the goal to allow automatic detection of problematic dialogue situations.
+                - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2Fc0Y_OXq1AJ.png?alt=media&token=821bf6bb-6b8a-4f8e-a089-35f3a6033f38)
+                - The metric scores a predictive model to automatically judge the dialogue at any point in time
+                    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FSTd8-euQ_1.png?alt=media&token=6ff7d9e4-8169-45d2-9ab9-edc20947fb8a)
+                        - Results show that this metric is a good substitute to user satisfaction 
+        - ### User Simulation
+            - Used as a learning environment to train reinforcement learning based dialogue manger
+            - Most popular approach is [ABUS]([[Agenda based User Simulation]]); the system generates a hidden user goal, and then geneartes a stack of dialogue acts in order to reach the goal.
+            - Recent work is on neural based approaches [NUS]([[Neural User Simulator]]) is an end-to-end trainable architecture based on neural networks
+                - Performs slightly better than [ABUS]([[Agenda based User Simulation]])
+            - To model different types of users and typical errors the users make, the [[MeMo workbench]] was introduced.
+                - Some possible errors
+                    - State errors when user input cannot be interpreted in current state, but might be interpretable in different state
+                    - Capability errors in system
+                    - Modelling errors due to programming/coding discrepancies in naming or instructures.
+                - Comparison between user simulation and user
+                    - Used high level features such as [CER]([[Concept Error Rates]]) or average number of semantic concepts per user turn
+                    - User judgement prediction
+                    - Precision and Recall of predicted actions
+- # [[Conversational Dialogue Systems]]
+- Early systems rely on a set of rules. Recent approaches use deep neural networks.
+- ## Modelling Conversational Dialogue
+    - Utterance Selection - information retrieval task
+        - Surface form similarity
+        - Multi-class classification task
+        - Neural network based approaches 
+    - Generative models sequence to sequence models
+        - Do not take into account **context **of conversation
+            - Some architectures introduce a context encoder
+        - No **variability** - Tend to generate generate answers that follows most common pattern (maximum likelihood)
+            - Change the loss function
+            - Condition the decoder
+- ## Evaluation
+    - Coarse-grained evaluations focus on adequacy of responses (how coherent), while fine-grained focus on specific behaviors (topic breadth, depth)
+    - ==Appropriateness== - word-overlap based metrics or predictive models based methods
+        - [[BLEU]], [[ROUGE]] 
+        - ADEM, a [RNN]([[Recurrent Neural Networks]]) trained to predict appropriateness ratings by human judges
+        -  Pearson's correlation for ADEM lies at 0.41 on the utterance level and 0.964 at system level. In constract, [[ROUGE]] score lies at 0.062 on the utterance level and 0.268 at the system level
+    - [GAN]([[Generative Adversarial Network]]) as a way to evaluate dialogue system
+        - The discriminator score could be a possible metric, but no evaluation done on this
+    - Topic breadth (can system talk about large variety of topics?) 
+        - Distinct topic keywords across all conversations
+        - Hard to correlate as a user might not have noticed a bot repeating itself due to limited conversations
+    - Topic depth (can the system sustain a long and cohesive conversation about one single topic?)
+        - The average length of a sub-conversation 
+    - Utterance Selection Metrics
+        - [[Next Utterance Selection]]. Reminiscent of [[Masked Language Modelling]] 
+            - Human performance significantly above random indicating that the task is feasible.
+            - ANN achieved similar performance to the human non-experts and performed worse than the experts
+        - [[Weak Agreement]] 
+            - Based on the observation that human judges only agree in 50% of the cases on the same utterance for a given context
+            - Multiple utterances could be regarded as acceptable choices
+            - Criteria: utterance is appropriate if at least one annotator chose this utterance to be appropriate
+        - [[Voted Appropriateness]]
+            - Depends on human annotations
+            - Takes number of judges into account which selected an utterance for a given context.
+            - Weighs each utterance differently unlike [[Weak Agreement]] which weighs every utterance equally
+- # [[Question-Answering Dialogue Systems]]
+- Similar to [[Task Oriented Dialogue Systems]], but less focus on dialogue, but rather on the completion of the task
+- Various types: single-turn, context (memory), interactive (refinement of queries).
+- Evaluation
+    - Most reuse information retrieval metrics, like error rate, [[F-scores]], or using different questionnaires
+- # Summary (2/2)
+- ## Evaluation [[datasets]]
+    - [[Task Oriented Dialogue Systems]]
+        - [MultiWOZ]([[MultiWOZ -- A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling]])
+    - [[Question-Answering Dialogue Systems]]
+        - [[Ubuntu Dialogue Corpus]]
+        - [[MSDialog]]
+        - [[ibAbI]] dataset, made from [[bAbI]]
+        - [[QuAC]]
+        - [[CoQA]]
+    - [[Conversational Dialogue Systems]]
+        - [[SwitchBoard]]
+        - [[British National Corpus]]
+        - [[SubTle Corpus]]
+        - [[OpenSubtitles]]
+        - [[Cornell Movie]]
+- ## Evaluation Challenges
+    - [DSTC]([[Dialog State Tracking Challenge]])
+    - [ConvAI]([[Conversational Intelligence Challenge 2]])
+    - [[Alexa Prize]]
+- ## Future trends and Challenges
+    - Automation of good evaluation methods is still an open challenge
+    - High quality dialogue is still hard to quantify
+    - [[Lifelong Learning]] cannot be done without an appropriate evaluation step
+- # Learning Gaps
+    - Old systems and methods
+- # Simplify/Analogies
+    - Just a wee long survey

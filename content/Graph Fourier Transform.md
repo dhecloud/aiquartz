@@ -1,0 +1,1 @@
+a variant of the [[Fourier Transform]] and is defined as $$\hat{f}[l] = <f,u_l> = \sum_{i_i}^N f[i]u_l[i]$$ where $u_l$ is the *l-th* eigenvector of the [[Laplacian Matrix]] of the graph. 

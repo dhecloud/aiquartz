@@ -1,0 +1,43 @@
+Speaker(s): [[Milica Gašić]]
+Tags: #Dialogue_Modelling, #seminar
+Held on: [[July 24th, 2020]]
+URL: https://www.clsp.jhu.edu/2020-jsalt-plenary-talks/
+- 1. Humans do not make a strict distinction between task oriented and chat dialogue, while modelling approaches do.
+- Recently approaches are intertwined
+- [[Task Oriented Dialogue Systems]] typically interface a database which is described by an underlying ontology (states)
+- 2. [[Dialogue Act]]s formalism describes meaning encoded in each dialogue turns. However, this formalism is disappearing due to the popularity of neural networks
+- Relation to ontology
+- Intention
+- Context
+- Partial information
+- 3. Context, or the dialogue state
+- Important for understanding, and responding to the user
+- Bayesian networks, Neural Networks used.
+- [[TriPy]], a value independent dialogue state tracker. Deploys a triple copy mechanism.
+- 4. Dialogue is a game to play, and can be defined as a [[Markov Decision Process]]
+- **Tracking** is needed for past states
+- **Policy** needed for future states
+- Policy must efficiently explore possible actions
+- 5. Modelling uncertainty. Track belief states instead of dialogue states.
+- Significantly increases computational complexity
+- Dialogue states still performs better
+- 6. Modular vs end-to-end systems
+- Traditional systems are a pipeline of modules
+- End-to-end systems are reasonable but the difficulty to incorporate planning (future states or dialogue).
+- 7. Symbolic (labelled training data needed) vs distributed representations (unsupervised embeddings)
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2F6x1GBOQA9B.png?alt=media&token=6ede449c-ac11-487b-aef8-9eb304125cd0)
+- 8. Metrics. Age old problem
+- [[BLEU]], [[ROUGE]], [[METEOR]] appealing but misleading
+- User satisfaction important but very difficult to measure
+- Other intangible measures: response time, dialogue turns
+- 9. Human-in-the-loop
+- Increasing need to evaluate using humans
+- [[Ravenclaw dialogue system]] used in a real user experiment in a bus information phone line after working hours in 2009.
+- Dealing with unreliable input from users
+- Using dialogue representation to try to find an 'uncertainty region'
+- 10. Training and testing corpora
+- More data is good!
+- The available labelled datasets are still very small given the difficulty of the problem
+- **[[Dialogue Modelling]] requires much more sophistication than seq2seq models**
+- [[Reinforcement Learning]] is promising but difficult in an end-to-end setting
+- Current state tracking approaches are wrong almost every second turn

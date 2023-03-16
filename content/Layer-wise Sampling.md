@@ -1,0 +1,1 @@
+Sample once for each graph layer

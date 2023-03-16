@@ -1,0 +1,1 @@
+of a [[Connected Graph]] is defined as $$diameter(G) = \max_{v_s,v_t\in V}\min_{p\in P_st}|p|$$

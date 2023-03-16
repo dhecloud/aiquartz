@@ -1,0 +1,1 @@
+A shared distribution, which is defined over the entire node set $V$, is utilized to sample a shared set of nodes

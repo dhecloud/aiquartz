@@ -1,0 +1,25 @@
+---
+---
+- [[Binary Matrix Operations]]
+- **Commutative law of addition**: $$[A] + [B] = [B] + [A]$$ if the sizes are the same
+- **Associative law of addition**: $$[A] + ([B]+[C]) = ([A] + [B]) + [C]$$ if the sizes are the same
+- **Associative law of multiplication**: $$[A]([B][C]) = ([A][B])[C]$$
+- **Distributive law**: ([A]+[B])[C] = [A][C] + [B][C]
+- $$AB \neq BA$$ in general
+- [[Invertibility]]
+- Only for square matrices
+- $$AA^{-1} = I = A^{-1}A$$
+- $$det(A) \neq 0$$
+- $$A$$ is non-singular
+- $$A$$ is invertible
+- $$(A^{-1})^{-1} =A$$ if A is a square matrix 
+- $$(AB)^{-1} = B^{-1}A^{-1}$$
+- $$(A^{-1})^T  = (A^T)^{-1}$$
+- Inverse is not distributive over addition $$(A+B)^{-1} \neq A^{-1} + B^{-1}$$
+- For [[Orthogonality|orthogonal]] matrix, $$A^{-1} = A^T$$
+- [[Trace]] of a matrix
+- Sum of diagonal entries of A
+- [[Determinant]] of a Matrix
+- $$det(A) = $$ when A is singular (non-invertible) ie has dependent rows/columns
+- $$det(AB) = det(A) \times det(B)$$
+- $$det(A^{-1}) = \frac{1}{det(A)}$$

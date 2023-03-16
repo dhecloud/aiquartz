@@ -1,0 +1,3 @@
+---
+aliases: [RDF, RDF triple]
+---

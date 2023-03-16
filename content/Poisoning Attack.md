@@ -1,0 +1,1 @@
+Attacks before the model is trained. Training data is poisoned.

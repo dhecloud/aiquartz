@@ -1,0 +1,12 @@
+---
+---
+- Date: [[August 21st, 2020]]
+- [[Chernoff Faces]]
+- Displays multivariate data with human faces
+- [[Exploratory Data Analysis]]
+- Distance in feature spaces
+- Data standardization/normalization
+- Standard Deviation
+- [[Principal Component Analysis]]
+- [[Mahalanobis Distance]]
+- Invariant to linear transformation

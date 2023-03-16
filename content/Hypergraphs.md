@@ -1,0 +1,1 @@
+![[Pasted image 20201203144620.png]]can encode higher order relations (not simply pairwise information via edges). It is formally defined as $G=\{V,E,W\}$ where $W$ is a diagonal matrix denoting the weight of the hyperedges. It can be described by an [[Incidence Matrix]] where its positions are 1 only when that node is incident to the edge.

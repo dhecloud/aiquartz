@@ -1,0 +1,3 @@
+Taken from the [[Mixture Model Network (MoNet)]] framework. A pseudo-coordinate is introduced to denote the relevant relation between a pair of nodes, based on their [[Degree]]s. Then a [[Gaussian Kernel]] is applied on the pseudo-coordinate to measure the relation. We can also use a [[Feed-forward]] network instead of the pseudo-coordinate to transform the pair of nodes. 
+
+Note: this is the graph version of the [[Convolution]] operation.

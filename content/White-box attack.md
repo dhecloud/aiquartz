@@ -1,0 +1,1 @@
+full information of model, data, architecture, etc

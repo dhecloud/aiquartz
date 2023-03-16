@@ -1,0 +1,1 @@
+defined as $$f[i] = \sum_{l=1}^N \hat{f}[l]u_l[i]$$

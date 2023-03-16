@@ -1,0 +1,2 @@
+![[Pasted image 20201203144245.png]] contains both positive and negative edges. An edge can only be either positive or negative. Therefore, there should be no overlap between the positive and negatives edges; ie $E^+ \cap E^- = \emptyset$. 
+- The positive and negative edges can also be described as a signed [[Adjacency Matrix]] where $A_{i,j} =1$ when positive, and $A_{i,j}=-1$ when negative.

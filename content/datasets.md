@@ -1,0 +1,4 @@
+---
+---
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2F32_JwZUtSr.png?alt=media&token=e5f19c9d-3538-4257-a413-5b59bfd90765)
+- Taken from [[(SPOLIN) Grounding Conversations with Improvised Dialogues]]

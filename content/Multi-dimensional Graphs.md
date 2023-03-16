@@ -1,0 +1,2 @@
+consists of multiple relations between a pair of nodes. Therefore, there are multiple sets of edges which each describes the relations between the nodes.
+- By extension, there are mutiple [[Adjacency Matrix]].

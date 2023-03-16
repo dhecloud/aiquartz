@@ -1,0 +1,2 @@
+### [[Knowledge Graph Embeddings and Explainable AI]]
+Aim to learn the translation from the head entity to the tail entity. Have advantage of having a concise definition and getting good performance. Some examples: [[RotatE]], [[Hierarchy-Aware Knowledge Graph Embedding]]

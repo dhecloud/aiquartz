@@ -1,0 +1,3 @@
+### [[Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering]]
+![[Pasted image 20201215132826.png]]
+[[Pooling]] is done on graphs in this paper by artifically inflating the dimensions of the graph but adding fake nodes with a neutral value. [[Graclus]] is used to coarsen the graph. This process results in a balanced [[Binary Tree]] and therefore allows this operation to be paralleled using GPUs. 

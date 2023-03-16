@@ -1,0 +1,5 @@
+### [[SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS]], [[Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering]]
+
+[[Spectral Graph]] [[Convolution]] is done with a filter $g = \text{diag}(\theta)$ where $\theta \in \mathbb{R}^N$ in the fourier domain: $$g_\theta \star x =  U g_\theta U^Tx $$ where $U$ is the matrix of [[Eigenvector]]s of the normalized graph [[Laplacian Matrix]] $L=I_N - D^{-\frac{1}{2}}AD^{-\frac{1}{2}} = U \Lambda U^T$, with a diagonal matrix of its eigenvalues $\Lambda$ and $U^Tx$ being the [[Graph Fourier Transform]] of $x$.
+
+[[Chebyshev Polynomial]] is used to approximate $g_\theta(\Lambda)$ due to the expensive [[Eigendecomposition]] of $L$. This gives us $$g_\theta \star x \approx \sum_{k=0}^K\theta^\prime_kT_k(\tilde{L})x$$ where $\tilde{L} = \frac{2}{\lambda_{max}}L-I_N$, with $\lambda_{max}$ denoting the largest eigenvalue of $L$. This is now localized due to the K-th order polynomial; ie nodes are at a maximum K steps are only involved. 

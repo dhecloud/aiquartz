@@ -1,0 +1,2 @@
+![[Pasted image 20201203143532.png]]can be divded into two disjoint subsets. Formally, $$V = V_1 \cup V_2, V_1 \cap V_2 = \emptyset $$$$ v_e^1 \in V_1, v_e^2 \in V_2 \text{ for all }e=(v_e^1,v_e^2)\in E$$
+Often used to capture interactions between different objects

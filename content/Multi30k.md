@@ -1,0 +1,2 @@
+### [[A Novel Graph-based Multi-modal Fusion Encoder for Neural Machine Translation]]
+Each image is paired with one English description and human translations into German and French. Training, validation and test sets contain 29,000, 1,014 and 1,000 instances respectively

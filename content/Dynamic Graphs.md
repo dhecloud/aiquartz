@@ -1,0 +1,1 @@
+simply a graph with timestamps. There are two mapping functions which map each node and each edge to their emerging timestamps

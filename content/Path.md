@@ -1,0 +1,1 @@
+a [[Walk]] whose nodes are distinct.

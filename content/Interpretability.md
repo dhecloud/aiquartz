@@ -1,0 +1,5 @@
+---
+---
+- Interpretability means that the cause and effect can be determined.
+- https://datascience.stackexchange.com/questions/70164/what-is-the-difference-between-explainable-and-interpretable-machine-learning
+- Definition seems quite inconsistent 

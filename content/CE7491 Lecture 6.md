@@ -1,0 +1,17 @@
+---
+---
+- Date: [[September 16th, 2020]]
+- [[Region Proposal Network]]
+- [[Faster R-CNN]] is a two stage object detector
+- Run backbone network and region proposal network per image
+- Crop features, predict object class, prediction bbox offset per region
+- [[Image Restoration]]
+- [[Super-Resolution]]
+- produce a detailed realistic output image which is faithful to the low resolution image
+- Allows for saving bandwidth
+- Single image up-scaling is ill posed because there exists infinite high resolutions solutions for that low resolution image
+- Example based methods learn mapping functions from external low and high resolution exemplar pairs
+- [[Deconvolution (Transposed Convolution)]] same as normal convolution but in the backward direction (smaller to bigger dimension)
+- Causes "checkerboard" artifacts in the upsampled image due to the uneven overlap when the kernel size is not divisible by the stride.
+- Solve this by doing a convolution after a deconvolution, or doing a subpixel convolution
+- [[Generative Adversarial Network]] 

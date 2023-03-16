@@ -1,0 +1,31 @@
+---
+---
+- [[Euclidean Distance]] of a vector is defined as $$\lVert v \rVert = \sqrt{v_1^2 + v_2^2 + ... + v_n^2}$$
+- if v is a vector in $$R^n$$ and if $$k$$ is any scalar, then
+- $$\lVert v \rVert \geq 0$$
+- $$\lVert v \rVert = 0$$ __if and only if __ $$v = 0$$
+- $$\lVert kv \rVert = |k|\lVert v \rVert$$
+- A vector with [[Euclidean Distance]] of 1 is an [[Unit Vector]]
+- To normalize a vector, we multiply a nonzero vector by the reciprocal of its length
+- $$u = \frac{1}{\lVert v \rVert}v$$
+- To prove $$\lVert u \lVert = 1$$, simply show $$\lVert u \lVert^2 = 1$$
+- To find the distance between $$u$$ and $$v$$, it is the length aka [[Euclidean Distance]] between the two vectors
+- $$\lVert u-v \lVert $$
+- [[Dot Product]]
+- $$u \cdot v= \lVert u \rVert \lVert v \rVert \cos(\theta)$$
+- $$u \cdot v= u_1v_1 + u_2v_2 + ... + u_nv_n$$ (simplified)
+        if $$u=v,  \lVert v \lVert = \sqrt{v\cdot v}$$
+- **Intuition:** Tells you what amount of one vector goes in the direction of another
+- When both vectors point in same general direction, dot product is positive
+- When both vectors are pointing away from each other, dot product is negative
+- When both vectors are perpendicular, dot product is 0
+- **Properties of the Dot Product**
+- __Symmetry__: $$u \cdot v = v \cdot u$$
+- __Distributive__: $$u \cdot (v + w) = u \cdot v + u \cdot w$$
+- __Homogeneity__: $$k(u \cdot v) = (ku) \cdot v$$
+- __Positivity__: $$v \cdot v \geq 0$$ and $$v \cdot v = 0$$ if and only if $$v = 0 $$
+- $$Au \cdot v = u \cdot A^T v$$ and $$u \cdot Av = A^T u \cdot v$$ where $$A$$ is an $$n \times n$$ matrix and $$u, v$$ are $$n \times 1$$ matrices
+- [[Cauchy-Schwarz Inequality]]
+- if $$u$$ and $$v$$ are vectors in $$R^n$$, then $$|u \cdot v| \leq \lVert u \rVert \lVert v \rVert $$
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FYXPcCSOCW-.png?alt=media&token=4a7cde7b-9793-4f7b-940b-9b8cd944fd8a)**Triangle inequality for vectors(left) and distances(right)**
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2F0ejX_j0oC0.png?alt=media&token=e102e54b-a618-4320-8d09-b89f427105ce) if $$u$$ and $$v$$ are vectors in $$R^n$$, then $$\lVert u + v \rVert^2 + \lVert u - v \rVert^2 = 2(\lVert u \rVert^2+ \lVert v \rVert^2)$$

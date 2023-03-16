@@ -1,0 +1,14 @@
+---
+---
+- Date: [[August 18th, 2020]]
+- [[Rule-Based Approaches]] consists of rules and the inference to extract a conclusion
+- [[Knowledge Based Agents]] requires knowledge representation - logic-based, graphic-based
+- [[Memory]] is the capacity to retain information over time
+- Sensory 
+- Short Term
+- Long Term
+- Implicit or procedural memory like riding a bicycle
+- Explicit or declarative memory for facts and events (conscious recall)
+- Symbolic memory for factual knowledge
+- Episodic memory for personally experienced events
+- 

@@ -1,0 +1,1 @@
+[[Black-box attack]] model trained using [[Reinforcement Learning]]. Only modified the graph structure, and not the node features. Attacking procedure is modeled as a Finite [[Markov Decision Process]]

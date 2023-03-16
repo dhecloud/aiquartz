@@ -1,0 +1,1 @@
+defined as $$Q=\frac{1}{2\cdot \text{vol(G)}}\sum_{ij}(A_{i,j} - \frac{d(v_i)d(v_j)}{\text{vol}(G)})h_ih_j$$ where $d(v_i)$ is the degree of node $v_i$. $h_i = 1$ if node $v_i$ belongs to the first community, otherwise -1. Ideally, a good community assignment will result in a large value of $Q$. (more details in book)

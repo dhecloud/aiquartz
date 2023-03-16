@@ -1,0 +1,2 @@
+### [[Knowledge Graph Embeddings and Explainable AI]]
+Aims to use a multiplicative approach and to represent the relationships as matrics in teh vector space. Has a high expressive power due to the use of a full rank matrix, but the full rank matrix is prone to overfitting.

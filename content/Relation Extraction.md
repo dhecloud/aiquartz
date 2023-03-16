@@ -1,0 +1,2 @@
+### [[Deep Learning On Graphs Chapter 10 - Graph Neural Networks in Natural Language Processing]]
+The task of relation extraction is to discern whether a relation exists between two entities (i.e., subject and object) in a sentence

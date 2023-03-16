@@ -1,0 +1,1 @@
+Uniformly samples a set of root nodes. Then from each root node, generate a [[Random Walk]].

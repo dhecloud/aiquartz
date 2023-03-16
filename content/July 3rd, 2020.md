@@ -1,0 +1,4 @@
+---
+---
+- Main [[Takeaway(s)]] from [[Zhou Yu]]'s [plenary talk](https://www.clsp.jhu.edu/2020-jsalt-plenary-talks/) at [[JSALT2020]]
+- She thinks in bigger pictures; encoders/decoders architecture which are task agnostic. Good point to think about when designing model

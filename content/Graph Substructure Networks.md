@@ -1,0 +1,2 @@
+### [[CE7454 Deep Learning for Data Science Lecture Notes - Recent Developments in Graph Network Architectures]]
+![[Pasted image 20201215230817.png]] Deals with higher order interactions such as [[Cycles]], [[Cliques]], [[Clusters]]. [[Graph Neural Networks|GNN]]s are augmented with subgraph [[Isomorphism]] counts, which is done as a pre-processing step.

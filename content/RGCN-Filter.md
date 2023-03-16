@@ -1,0 +1,1 @@
+Uses multivariate Gaussian distribution instead of plain vectors to model the hidden representation. It is built from the [[GCN-Filter]] and penalises nodes with larger variances with smaller attention scores.

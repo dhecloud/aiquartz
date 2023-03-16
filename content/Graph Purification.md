@@ -1,0 +1,1 @@
+A [[Graph Adversarial Defense]] method which tries to detect the adversarial attacks and remove them from the attacked graph to generate a clean graph

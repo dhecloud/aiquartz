@@ -1,0 +1,7 @@
+---
+---
+- Date: [[September 1st, 2020]]
+- [[Self-Organized Feature Mapping (SOFM)]] can be used as a projection from 3D to a lower dimension grid
+- Competition: Use similarity of input data to their parameters
+- Cooperation: Use neighborhood function to group
+- Dynamics: Adaptation rule. Change parameters of winner node 

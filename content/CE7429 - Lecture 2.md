@@ -1,0 +1,8 @@
+---
+---
+- Date: [[August 14th, 2020]]
+- [[Computational Intelligence]] is a branch of science dealing with problems that cannot be solved using effective computational algorithms and we focus on human-brain inspired approaches using a repertoire of AI or ML tools to achieve human-like, interpretable decision process
+- Biological inspirations help to formulate initial models: Neural networks design architecture
+- Psychological inspirations in the form of larger brain structures are considered (connectionist models) 
+- Bio-medical inspirations: Swarm Algorithms, Immunological systems, etc
+- Logic inspirations: Fuzzy, Crisp, Rough logic

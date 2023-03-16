@@ -1,0 +1,1 @@
+Models the filter with a K-order truncated polynomial to reduce the number of hops from the target node.

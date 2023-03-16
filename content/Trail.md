@@ -1,0 +1,1 @@
+a [[Walk]] whose edges are distinct.

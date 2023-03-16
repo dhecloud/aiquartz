@@ -1,0 +1,1 @@
+(Heider, 1946; Cartwright and Harary, 1956) suggests that "the friend of my friend is my friend" and “the enemy of my friend is my enemy”

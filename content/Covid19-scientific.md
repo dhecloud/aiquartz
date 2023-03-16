@@ -1,0 +1,7 @@
+---
+---
+- Constructed by [[Misinformation has High Perplexity]]
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2F0TuhR1PVj5.png?alt=media&token=7483551e-2ef2-490a-9377-62f70db84bc7)
+- Myths and scientific truths are collected from reliable souurces like MedicalNewsToday, Centers for Disease Control and Prevention, World Health Organization
+- For example, "drinking a bleach solution will prevent you from getting the COVID-19."
+- 

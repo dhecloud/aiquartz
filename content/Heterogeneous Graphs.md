@@ -1,0 +1,1 @@
+consists of nodes, edges, but each node and each edge are associated with a type. Therefore there are two mapping functions to map nodes and edges to their types.

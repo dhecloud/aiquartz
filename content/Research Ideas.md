@@ -1,0 +1,52 @@
+---
+---
+- DCASE team
+	- [[Receptive Field Regularization Techniques for Audio Classification and Tagging with Deep Convolutional Neural Networks]]. Apply filter damping to [[Audio Tagging]]
+- [[Automated Audio Captioning|AAC]]
+	- [[Receptive Field Regularization Techniques for Audio Classification and Tagging with Deep Convolutional Neural Networks]]. ~~Apply filter damping~~. ==didnt out work==
+	- Hearing colors - compress audio into codes/embeddings, which is then used for aac?
+	- nouns/objects are not predicted correctly for AAC.
+		- if pretrained CNN10 (audio) helps to improve performance, do we need pretrained model for text?
+		- How to get the model to predict the correct noun?
+			- Either multitask learning to predict noun?
+			- Or include a subtask in the encoder that can incorporate into the decoder
+	- Include metric for n-gram repetition as a measure for coherency
+	- [[Byte Pair Encoding]] for text output?
+	- Quantization for encoder - discrete encoder mappings - discrete decoder tokens
+	- Time domain inputs
+
+- subword tokenization for Chinese
+    - Split words up further into free radicals?
+- [[Non-Autoregressive]]
+    - Is there [[Mode Collapse]] in NAT models?
+    - [[Hysteresis Thresholding]] for decoding?
+    - Embeddingless Models [[Neural Machine Translation without Embeddings]]
+    - Use replace the autoregressive factorization dependency with another dependency 
+    - [[Non-Autoregressive]] [[Question Answering]]?
+    - Calculating probabalities/perplexity of each output position.
+    - Using [[Graph Neural Networks|GNN]] to induce [[Inductive Biases]] to reduce the problem of [[Multi-Modality]]
+    - First paper research question 
+        1. [[Transfer Learning]] - does training from a pretrained model help vs training from scratch?
+             - If we were to train in a limited computation power setting, which layers are most crucial?
+             - Check for [[Isotropy]], [[Anisotropy]], [[Multi-Modality]] problem
+        2. Suppress back window, check impact from post-editing windows. Also train model without back window to see if model performs better.
+        3. Compute [[t-SNE]] on output of adaptor, check for less multimodality?
+- [[Non-maximal Suppression]] for words? hellllllo -> hello
+- [[JSALT2020]]
+    - [[Evaluation Metric]] for [[Conversational Dialogue Systems]]
+    - Train turn-level breakdown/coherence first, then ease into dialog level
+    - Multi-task [DBDC]([[The Dialogue Breakdown Detection Challenge - Task description, Datasets, and Evaluation Metrics]]) and [[Switchboard Coherence]]
+    - Switchboard is formatted as average score and number of annotators is also given
+        - Maybe normalize average score and use a sigmoid to predict
+    - Or predict the distribution of scores by the annotators
+    - DBDC is just 3-class classification
+    - Dialogue-turn annealing?
+    - [[Rafael E. Banchs]] proposed finding some sort of pattern for which we can decide if a response is coherent using [[TF-IDF]] -> [[PCA]] -> [[t-SNE]]
+    - how about using [[BERT]] -> [[t-SNE]]?
+    - prof chng suggested some kind of region detection
+    - N-gram perplexity using [[DialoGPT]]
+        - N-gram clusters for a list of statements following the [[FED metric]]
+        - Turn level fed clusters done
+        - Try dialog level fed clusters
+        - Finetune slightly on training datasets before kmeans
+

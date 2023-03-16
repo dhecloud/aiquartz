@@ -1,0 +1,2 @@
+### [[Knowledge Graph Embeddings and Explainable AI]]
+A formal specification of the meaning of types and relationships expressed as a set of logical constraints and rules, which support automated reasoning

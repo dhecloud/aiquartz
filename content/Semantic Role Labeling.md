@@ -1,0 +1,2 @@
+### [[Deep Learning On Graphs Chapter 10 - Graph Neural Networks in Natural Language Processing]]
+![[Pasted image 20201212184411.png]] aims to discover the latent predicate argument structure of a sentence

@@ -1,0 +1,1 @@
+A [[Graph Adversarial Defense]] method which aims to learn a clean graph from the attacked graph while jointly training the graph neural network model

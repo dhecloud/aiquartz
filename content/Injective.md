@@ -1,0 +1,1 @@
+maps distinct elements of its domain to distinct elements of its codomain. ie. every element of the function's codomain is the image of at most one element of its domain

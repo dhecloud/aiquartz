@@ -1,0 +1,1 @@
+an extension of [[Dynamic Graphs]] but instead contains snapshots of each observations when it is not possible to record the emerging timestamp.

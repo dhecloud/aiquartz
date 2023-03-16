@@ -1,0 +1,13 @@
+---
+---
+- Date: [[September 22nd, 2020]]
+- [[Semantic Memory Duration]]
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FXjEhTh5I4a.png?alt=media&token=12fcbe63-b998-4bef-95af-5c25461df317)
+- Related to [[Catastrophic Forgetting]]?
+- [[Modal Memory Model (SOAR)]]
+- Stimulus -> [[Sensory Memory]] -> [[Short Term Memory]] <-> [[Long Term Memory]]
+- [[Adaptive Character of Thought (ACT) Memory Model]]
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FiRxTSsmpfd.png?alt=media&token=009c037b-8219-4aa1-8df5-ba3c415b6e3a)
+- [[Working Memory Model]]
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FVrHR3GnaU1.png?alt=media&token=959d5199-5217-48fc-895e-616be20277a7)
+- [[Chunking]] refers to the process of taking individual pieces of information and grouping them into larger units.

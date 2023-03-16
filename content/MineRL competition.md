@@ -1,0 +1,3 @@
+---
+---
+- challenge to mine diamond which requires several complex steps

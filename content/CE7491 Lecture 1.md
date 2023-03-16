@@ -1,0 +1,8 @@
+---
+---
+- [[Field of View]]: maximum angle of the scene observed by the camera
+- Depends on focal length of lens, size of imaging plan
+- [[Depth of Field]]: range of depths that scene objects can be at, such that they remain in acceptable focus simultaneously 
+- Depends on focal length of lens, aperture size
+- [[Gray-Level Indexing]]: improving image quality by using an assigning a pixel value to an index
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2FNvIBeSshOv.png?alt=media&token=b5bb94fb-b4cb-40bf-a286-3879708f04b7)[[Image Dithering]] trades of spatial resolution for perceptual increase in pixel depth

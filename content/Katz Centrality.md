@@ -1,0 +1,3 @@
+a variant of the [[Eigenvector Centrality]], but includes a small constant for the central node. It is defined as $$(I - \alpha\cdot A)c_k = \beta$$ $$c_k = (I - \alpha\cdot A)^{-1}\beta$$where $beta$ is the vector containing the constant term for all nodes.
+- Equivalent to [[Eigenvector Centrality]] if $\alpha = \frac{1}{\lambda_{max}}$ and $\beta =0$,.
+- $\alpha < \frac{1}{\lambda_{max}}$ in practice to ensure [[Invertibility]] of the matrix $(I-\alpha \cdot A)$ 

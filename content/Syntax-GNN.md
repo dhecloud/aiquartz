@@ -1,0 +1,2 @@
+### [[Do Syntax Trees Help Pre-trained Transformers Extract Information]]
+![[Pasted image 20210105184339.png]] The [[Multi-Head Self-Attention]] in the [[Transformer]] encoder is replaced by an [[Graph Attention]] mechanism.

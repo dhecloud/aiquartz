@@ -1,0 +1,1 @@
+A [[Subgraph-wise Sampling]] method which randomly samples according to a following distribution given budget $m$

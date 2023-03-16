@@ -1,0 +1,1 @@
+[[Gray-box attack]] which aims to reduce the overall node classification performance. It is a [[Poisoning Attack]], and the attacker is formulated as a [[bi-level optimization]] problem. [[Meta-Gradients]], used in [[meta-learning]], are used to solve the optimization problem.

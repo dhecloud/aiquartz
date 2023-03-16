@@ -1,0 +1,3 @@
+---
+---
+- In the research area of [[Lottery Ticket Hypothesis]], rewinding refers to rewinding the weights of a network being pruned to a certain iteration, rather than resetting the weights all together. 

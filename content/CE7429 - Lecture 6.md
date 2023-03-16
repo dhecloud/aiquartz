@@ -1,0 +1,12 @@
+---
+---
+- Date: [[August 25th, 2020]]
+- [[Principal Component Analysis]] problem
+- Gives worst possible solution from the point of view of seeing the structure of the data
+- Finds the most accurate data representation in a lower dimension
+- Completely unsupervised, knows only about variance, but nothing about different classes of data
+- [[Discriminant Component Analysis]]
+- [[Fisher's Discriminant Analysis]]
+- [[Linear Discriminant Analysis]]
+- explicitly attempts to model the difference between the classes of data. [[Principal Component Analysis]], in contrast, does not take into account any difference in class, and factor analysis builds the feature combinations based on differences rather than similarities
+- find a linear combination of features that characterizes or separates two or more classes of objects or events.

@@ -1,0 +1,1 @@
+Uses the [[Gated Recurrent Unit]] to work with graphs with directed edges and different edges type.

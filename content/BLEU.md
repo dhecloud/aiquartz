@@ -1,0 +1,1 @@
+Note: BLEU scores are between 0-1. If scores appear as a double digit number, like 22.3, it means that it has been multipled by 100.

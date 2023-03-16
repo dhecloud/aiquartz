@@ -1,0 +1,1 @@
+calculated based on how many nodes are connected to it. It is defined as $$c_d(v_i) = d(v_i) = \sum_{j=1}^N A_{i,j}$$ However it treats all neighbours equally.

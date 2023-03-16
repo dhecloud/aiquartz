@@ -1,0 +1,2 @@
+### [[Deep Learning On Graphs Chapter 10 - Graph Neural Networks in Natural Language Processing]]
+![[Pasted image 20201212190620.png]] The WIKIHOP dataset consists of a set of QA samples, and the goal is to choose the current answer from the candidate set.

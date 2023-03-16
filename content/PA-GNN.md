@@ -1,0 +1,1 @@
+Aims to learn mechanism that can assign low attention scores to adversarial edges by transfering knowledge from clean graphs

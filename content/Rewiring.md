@@ -1,0 +1,1 @@
+A rewiring operation $a = (v_{fir}, v_{sec}, v_{thi})$ involves three nodes, where $vsec \in N(v_{fir})$ and $v_{thi} \in N^2(v_{fir})/N(v_{fir})$ with $N^2(v_{fir})$ denoting the 2-hop neighbors of the node $v_i$. The rewiring operation a deletes the existing edge between nodes $v_{fir}$ and $v_{sec}$ and add a new edge between nodes $v_{fir}$ and $v_{thi}$.

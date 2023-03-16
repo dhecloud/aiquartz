@@ -1,0 +1,35 @@
+---
+---
+- Date: [[August 26th, 2020]]
+- [[Spectral Power Distribution]]
+- Plot of power against wavelight 
+- Grayscale cameras only have one response function
+- Color sensation is a simplified human representation. Different [[Spectral Power Distribution]] can generate the same color sensation
+- [[Quantitative Color Specification]]
+- Names are very inexact; bright green, pink, dark brown
+- Specify [[Spectral Power Distribution]] -> exact color, but too much redundant information
+- Black-Body temperature
+- [[Tristimulus Color Theory]]
+- A gamut of colors can be humanly perceived by physically adding 3 primary [[Spectral Power Distribution]] in different amounts
+- [[Grassmann's Law]] states that human perception of color mixing is linear
+- **No** set of 3 physically real primary [[Spectral Power Distribution]] can reproduce all perceptible colors additively 
+- [[Luminance]]
+- The approximate radiance
+- [[Chromaticity]]
+- Colors with the same ratio of [[Tristimulus Values]] have the same chromaticity 
+- [[Subtractive Color Mixing]]
+- Uses color codes like CMYK 
+- Detection of Edges
+- [[Sobel Gradient]]
+- [[Laplacian of Gaussian Filter]]
+- [[Canny Edge Detector]]
+    1. Gaussian Edge Filtering
+    2. [[Non-maximal Suppression]]
+- Reduce smeared edges to single pixel wide paths
+    3. [[Hysteresis Thresholding]]
+- High threshold - used as in normal thresholding
+- Low thresholds - pixels with magnitudes between two thresholds may be set to 1 if neighboring pixels perpendicular to edge gradient have been set to 1
+- [[Hough Transform]]
+- Grouping straight image edges that belong to the same physical edge in the world
+- Origin of image is typically taken to be the centre of the image
+- Can connect lines or circles which are broken up either by noise or occlusion 

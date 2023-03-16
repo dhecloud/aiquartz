@@ -1,0 +1,1 @@
+a greedy algorithm to compute successive coarser versions of a given graph

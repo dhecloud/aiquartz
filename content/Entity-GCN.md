@@ -1,0 +1,2 @@
+### [[Deep Learning On Graphs Chapter 10 - Graph Neural Networks in Natural Language Processing]]
+Mentions of entities are identified from the supporting document, and each mention becomes a node. Various types of edges: Match, DOC-BASED, COREF, COMPLEMENT are used to describe 4 different types of relations. This graph is called an [[Entity Graph]]. The final node represenations are used to select the answer for the given query using a [[Softmax]]

@@ -1,0 +1,1 @@
+Minimal information. Only allows to query from victim model.

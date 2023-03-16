@@ -1,0 +1,4 @@
+---
+---
+- Variant of [[Winograd]]. Not to be confused with other variants like [[Winogrande]]
+- Included in [[GLUE Benchmark]]

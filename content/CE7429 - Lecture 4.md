@@ -1,0 +1,9 @@
+---
+---
+- Date: [[August 18th, 2020]]
+- 2D projections - scatterplots
+- correlations between variables
+- clustering of different objects
+- [[Starplots]]
+- Helpful for small to moderate sized multivariate datasets
+- <100 points

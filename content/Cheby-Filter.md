@@ -1,0 +1,1 @@
+The [[Poly-Filter]] is unable to create an [[Orthogonal Basis]] of the polynomial, thus increasing depedency of each coefficient on each other. The [[Chebyshev Polynomial]] is thus used to induce an [[Orthogonal Basis]]

@@ -1,0 +1,3 @@
+---
+---
+- Also known as Euclidean Inner Product

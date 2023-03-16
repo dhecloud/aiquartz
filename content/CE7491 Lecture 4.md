@@ -1,0 +1,5 @@
+---
+---
+- Date: [[September 2nd, 2020]]
+- Mainly basics about CNNs
+- [[Pooling]] is useful for building inner activations that are slightly invariant to small changes in inputs

@@ -1,0 +1,28 @@
+---
+---
+- Date: [[August 28th, 2020]]
+- [[Fisher's Discriminant Analysis]]
+- Takes into account within class scatter matrix
+- [[Principal Component Analysis]] and [[Fisher's Discriminant Analysis]] are linear
+- [[Projection Pursuit]] may be linear or non-linear
+- Used for visualization, dimensional reduction, and regression
+- [[Independent Component Analysis]] is a method for finding underlying factors or components from multivariate statistical data. Special version of [[Projection Pursuit]]
+- Looks for components that are statistically independent, and non-Gaussian.
+- Principle 1: Non linear decorrelation. Find matrix $$W$$ so that for any $$i \neq j$$, $$y=Wx$$ has components $$y_i$$ and $$y_j$$ in the projected space are uncorrelated, and the transformed components are uncorrelated
+- Principle 2: Maximum nonguassianity. Find the local maxima of nongaussianity of a linear combination $$y=Wx$$ under the constraint that the variance is constant. Each local maximum gives one independent component
+- [[Expectation (Mean)]] can be used to define [[Moments]] 
+- [[Kurtosis]] is a measure of combined weight of a distribution's tails relative to the center of the distribution
+- Standard [[Normal Distribution]] has kurtosis of 3
+- Low kurtosis = light tails, lack of outliers
+- Measure of [[Non-Gaussianity]]
+- [[Kurtosis]], but sensitive to outliers
+- [[Entropy]]
+- Negative [[Entropy]], difficult to estimate
+- Approximations
+- Many algorithms for exploratory [[Projection Pursuit]] and [[Independent Component Analysis]] exist. 
+- [[Models of Self-Organization]]
+- [[Self-Organized Feature Mapping (SOFM)]], one of the simplest models
+- Good as a visualization method and a clustering method
+- Brain Maps
+- [[Senso-motoric Maps]]
+- [[Somatosensoric Maps]]

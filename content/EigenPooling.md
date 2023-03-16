@@ -1,0 +1,1 @@
+uses spectral clustering methods and gets non-overlapping clusters, which are the supernodes. The graph structure is created using the intra-cluster and inter-cluster [[Adjacency Matrix]] for the input graph. [[Graph Fourier Transform]] are used to generate node features. Some coefficients are discarded to keep the number of dimensions the same.

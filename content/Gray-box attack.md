@@ -1,0 +1,1 @@
+No access to architecture, parameters. Only access to training data

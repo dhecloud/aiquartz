@@ -1,0 +1,1 @@
+ QM9 is a dataset that provides geometric, energetic, electronic and thermodynamic properties of roughly 130K molecules with up to nine heavy atoms, yielding 12 regression tasks. All molecules are modeled using density functional theory. Each task should predict a property for a given molecule, i.e., a graph consisting of atoms and bonds, i.e., nodes and edges, respectively

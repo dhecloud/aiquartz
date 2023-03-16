@@ -1,0 +1,1 @@
+A simplified form of [[Cheby-Filter]] where $K=1$ (1-hop) and approximating $\lambda \approx 2$. $\lambda$ refers to the eignvalue of the [[Laplacian Matrix]]

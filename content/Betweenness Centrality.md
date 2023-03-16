@@ -1,0 +1,1 @@
+based on number of paths passing through a node, unlike the above which are based on connections. It is defined as $$c_b(v_i)=\sum_{v_s\neq v_i \neq v_t} \frac{\sigma_{st}(v_i)}{\sigma_{st}}$$ where $\sigma_{st}$ is the total number of shortest paths from node $v_s$ to node $v_t$, while $\sigma_{st}(v_i)$ indicates the number of these paths passing through the node $v_i$.

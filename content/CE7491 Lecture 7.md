@@ -1,0 +1,6 @@
+---
+---
+- Date: [[September 23rd, 2020]]
+- Exploit [[Generative Adversarial Network]] priors for conditional [[Super-Resolution]]
+- [[GAN-Inversion]]
+- [[Self-Supervised Learning]] by solving jigsaw puzzles, counting, colorization

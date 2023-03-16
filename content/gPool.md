@@ -1,0 +1,1 @@
+performs [[Downsampling-based Pooling]] by calculating an importance measure using the node features and a learnt vector. A gating system is also used to control the information flow from the input features to the new features. The information measure still ignores the graph structure. Hence, [[GCN-Filter]] is used to learn the important score.

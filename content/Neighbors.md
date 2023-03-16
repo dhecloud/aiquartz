@@ -1,0 +1,1 @@
+of a node is the set of all nodes adjacent to that node

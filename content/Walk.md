@@ -1,0 +1,1 @@
+An alternating sequence of nodes and edges, starting with a node and ending with a node where each edge is incident with the nodes immediately preceding and following it

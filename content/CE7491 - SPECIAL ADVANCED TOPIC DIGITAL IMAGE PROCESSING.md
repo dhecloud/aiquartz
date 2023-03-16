@@ -1,0 +1,10 @@
+---
+---
+- [[CE7491 Lecture 1]]
+- [[CE7491 Lecture 2]]
+- [[CE7491 Lecture 3]]
+- [[CE7491 Lecture 4]]
+- [[CE7491 Lecture 5]]
+- [[CE7491 Lecture 6]]
+- [[CE7491 Lecture 7]]
+- [[CE7491 Lecture 8]]

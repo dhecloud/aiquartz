@@ -1,0 +1,2 @@
+Attacker is only allowed to modify the graph structures but not the node features. 
+Aims to find a set of edges for which when removed, will lead to bad prediction performance. The [[Carlili-Wagner Loss|CW loss]] is minimized as the objective function

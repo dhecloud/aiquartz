@@ -1,0 +1,46 @@
+Speaker(s): [[Emre Kiciman]], [[Aleksander Madry]], [[Dawn Song]], [[Jerry Li]]
+Tags: #seminar
+Held on: [[July 21st, 2020]]
+URL: [event page](https://www.microsoft.com/en-us/research/event/frontiers-in-machine-learning-2020/#!tuesday-july-21), [youtube](https://www.youtube.com/watch?v=Gd9pVx5QxhM&feature=emb_logo)
+- Talk 1: What do our models learn?, by [[Aleksander Madry]]
+- Machine learning is unstable! There are many ways for a model to succeed at a classification task. There is a **classification task misalignment**
+- Dataset or benchmark is meant to be a proxy to the real world
+- Adversarial Backgrounds: Change the background of a picture 
+- Can fool a model on most inputs by using worst-case background
+- More accurate models are more background robust
+- Randomizing background during training helps but decreases base accuracy
+- Models with higher accuracy have are more background robust! 
+- Why do these biases in datasets exist (in [[ImageNet]])?
+- There is some sort of confirmation bias when labeling
+- More than 20% of test images contain more than one object!
+- How good are ImageNet models really are?
+- Check how true model predictions are!
+- Annotators often cannot tell labels from prediction apart
+- Talk 2: AI & Security: Challenges, Lessons & Future Directions, by [[Dawn Song]]
+- History has shown there will always be attackers following new technology
+- Particularly worrying for AI as AI is often trusted to make decisions
+- Ways [[adversarial attacks]] can be performed on machine learning:
+- Integrity - cause learning system to not produce intended/correct results
+- Confidentiality - divulge sensitive information about individuals
+- Ways a machine learning model may be misused
+- To attack other systems; find vulnerabilities in other systems
+- To attack people; deepfakes, fake news
+- It is possible to "steal" a model through imitation learning by getting training data through querying APIs.
+- Then, it is possible learn how to attack the original model by attacking the imitation model
+- No sufficient defense today!
+- Possible to extract sensitive data from models, due to tendency to memorize
+- [[Duet]], a optimization algorithm based on [[noisy gradient descent]] to enforce differential privacy.
+- Talk 3: Algorithmic Aspects of Secure Machine Learning, by [[Jerry Li]]
+- Robustness at Training time
+- Data often comes from untrusted sources
+- In high dimensions, inliers are usually also very noisy
+- How can we find suspicious points?
+- The more a data point contributes to large eigenvectors of the covariance, the more suspicious it is
+    - This is measurable using a score function, [[quantum entropy regularization]] 
+- Panel disccusion
+- Defining a Threat Model
+- [[Jerry Li]]: Depends really on context, need to analyse what sort of attacks would occur 
+- Getting Motivation: 
+- [[Aleksander Madry]]: Find a real world application to work on and improve
+- Is trade off between accuracy and robustness fundamental or are the right methods just not created yet
+- [[Aleksander Madry]]: Trade off is fundamental. Similar to real world where if we specialize, we lose generality. 

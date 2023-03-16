@@ -1,0 +1,12 @@
+---
+---
+- Workshop on Statistical Machine Translation (WMT)
+- 2014
+- [[WMT14 Fr-En]], [[WMT14 Fr-En]]
+- [[WMT14 De-En]], [[WMT14 En-De]]
+- 2016
+- [[WMT16 De-En]], [[WMT16 En-De]]
+- 2017
+- [[WMT17 En-De]]
+- 2018
+- [[WMT18 En-De]]

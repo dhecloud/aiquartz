@@ -1,0 +1,1 @@
+ Given a graph  $G = \{V, E\}$, a subset formed with a subset of nodes $V^\prime \subset V$ and subset of edges $E^\prime \subset E$. Furthermore, the subset $V^\prime$ must contains all the nodes involved in the edges in $E^\prime$ .

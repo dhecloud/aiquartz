@@ -1,0 +1,4 @@
+---
+---
+- According to [[Misinformation has High Perplexity]]
+- LIAR is a publicly available dataset collected from the Politifact website, which consists of 12.8k claims.

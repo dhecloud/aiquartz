@@ -1,0 +1,1 @@
+information from the exponentially growing recipetive field is compressed into fixed length vectors. 

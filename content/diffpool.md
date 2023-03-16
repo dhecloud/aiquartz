@@ -1,0 +1,1 @@
+ uses the [[GCN-Filter]] followed by a [[Softmax]] to determine the nodes to keep.

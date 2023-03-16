@@ -1,0 +1,20 @@
+---
+---
+- Date: [[October 7th, 2020]]
+- [[Image-to-Image Translation]]
+- [[Deep Fakes]] - realistic images; manipulating physical attributes into those not previously observed before. But this does not include CGI, so must include an element of ease and convenience
+- Tries to make 2 [[Auto-Encoders]] the same by sharing the weights of the encoder.
+- [[Latent Space]], a compact representation of relevant information, of a [[Neural Network]] tends to self-organize. 
+- Desired [[Properties]]
+- Compact
+- Invariant
+- Disentangled (relevant features as represented separately in different feature spaces)
+- [[Auto-Encoders]]
+- Intended separation by bottlenecking
+- [[Generative Adversarial Network]]
+- Dealing with __instance__ discriminator
+- Ideally should converge to the globally minimal [[Nash Equilibrium]]
+- Suboptimal [[Nash Equilibrium]] = [[Mode Collapse]]
+- ==Is the image a likely fair sample from the underlying real data distribution?==, NOT to give u the most realistic image
+- This is because is an instance discriminator
+- [[Task Regularization]]

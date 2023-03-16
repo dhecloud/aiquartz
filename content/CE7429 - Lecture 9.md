@@ -1,0 +1,14 @@
+---
+---
+- Date: [[September 4th, 2020]]
+- Selecting a good model
+- a priori knowledge might be needed
+- Regularization to decrease variance
+- Train/test/split [[cross validation]]
+- [[Curse of Dimensionality]]
+- High dimensions are almost always empty or sparse!
+- Solution: We can use information selection methods, feature aggregations 
+- Trade offs
+- Simplicity vs accuracy (i disagree)
+- Confidence vs rejection
+- [[Confusion Matrix]], [[Receiver Operating Characteristics (ROC)]], etc.

@@ -1,0 +1,1 @@
+18,846 (11,314 for training and 7,532 for testing) text documents associated with 20 classes

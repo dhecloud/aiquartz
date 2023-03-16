@@ -1,0 +1,2 @@
+![[Pasted image 20201203012520.png]]a subgraph that has at least one path between any pair of nodes; and the nodes in that component are not adjacent to any vertices in V
+- By extension, a graph with only one [[Connected Component]] is said to be a [[Connected Graph]]

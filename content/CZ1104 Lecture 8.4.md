@@ -1,0 +1,34 @@
+---
+---
+- [[Singular Value Decomposition]]: For an $$m \times n$$ matrix for which the diagonal entries are the first $$r$$ singular values of A, there exists an $$m \times m$$ [[Orthogonality|orthogonal]] matrix $$U$$ and an $$n \times n$$ [[Orthogonality|orthogonal]] matrix $$V$$ such that
+$$A = U\Sigma V^T$$
+- columns of $$U$$ are the left singular values of $$A$$
+- columns of $$V$$ are the right singular vectors of A
+-  [[Matrix Approximation]]
+- The optimal rank $$r$$ approximation, in a least squares sense, is given by the rank r SVD truncation $$\hat{X}$$: ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPaperReadings%2Fs6zZX8JekP.png?alt=media&token=0a101403-92d3-497d-b55b-ec730548b04f)
+- Given a matrix $$A ∈ R^{m \times n}$$
+- Number of linearly independent rows = Row Rank
+- Number of linearly indepdent columns = Column rank
+- Row rank = Column rank = Rank of Matrix $$A$$
+- Rank(A) = Number of non-zero singular values of A
+- Rank(A) = Rank($$A^T$$)
+- Matrix $$A$$ has full rank if its rank equals the largest possible matrix of the same dimensions, which is the lesser of the number of rows and columns. For a full rank matrix, rank(A) = min(m, n)
+- Matrix A is said to be rank-deficient if it does not have full rank.
+- [[Condition Number]]
+- A condition number for a matrix and computation task measures how sensitive the answer is to perturbations in the input data and to roundoff errors made during the solution process
+- Measures how sensitive the matrix is when calculating its inverse
+- [[Moore-Penrose Pseudoinverse]] is a matrix that can act as a partial replacement for the matrix inverse in cases where it does not exist.
+- $$AA^+ = A$$
+- $$A^+AA^+ = A^+$$
+- $$(AA^+)^* = AA^+$$
+- $$(A^+A)^* = A^+A$$
+- $$A^+ = V_r D^{-1}U_r^T$$
+- Why is [[Singular Value Decomposition]] important?
+- Gives us dimensions of fundatmental subscapes
+- Allows us to compute various norms
+- Tells us about sensitivity of linear systems
+- Gives us optimal solutions to least squares linear systems
+- Gives us least error rank-k decomposition
+- Every Matrix has one
+- [[Four Fundamental Subspaces]]
+- column space and the nullspace of $$A$$ and $$A^T$$

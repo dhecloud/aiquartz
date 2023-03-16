@@ -1,0 +1,4 @@
+---
+---
+- Fact Extraction and Verification (FEVER)
+- (Thorne et al., 2018)

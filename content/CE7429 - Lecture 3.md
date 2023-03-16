@@ -1,0 +1,9 @@
+---
+---
+- Date: [[August 14th, 2020]]
+- Features: measurements or evaluation of some object properties
+- Feature Space representation: mapping into vectors. Can be symbolic or discrete
+- [[Exploratory Data Analysis]]: visualize relationships in the data
+- Using histograms or other plots
+- [[Bayes Theorem]]
+- $$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$

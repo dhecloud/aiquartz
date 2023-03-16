@@ -1,0 +1,4 @@
+---
+---
+- Date: [[September 15th, 2020]]
+- watched a video today????
