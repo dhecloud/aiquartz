@@ -10,5 +10,5 @@ I used this vault to keep myself organized on AI/ML research. Topics are primari
 Some suggested topics to search:
 1. audio captioning
 2. non-autoregressive
-3. transformer
+3. transformers
 
